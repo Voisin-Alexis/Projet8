@@ -57,8 +57,8 @@ spark = SparkSession.builder.master("local[*]").appName('Projet8_AWS').getOrCrea
 
 #spark
 
-#AWS_KEY = "AKIARPM2OKA4EWT663X7"
-#SEC_KEY = "HETncufP94F1yggOYmFTswk/7ZlDRZWkO3jJtBSk"
+#AWS_KEY = "XXX"
+#SEC_KEY = "XXX"
 
 spark.conf.set("spark.sql.execution.arrow.maxRecordsPerBatch", "512")
 
